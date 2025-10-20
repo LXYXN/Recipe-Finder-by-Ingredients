@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Recipe Finder{% endblock %}
+
+{% block content %}
+<h1>Recipe Finder by Ingredients</h1>
+<form id="ingredient-form">
+    <div class="form-group">
+        <input type="text" class="form-control" id="ingredients" placeholder="Enter ingredients separated by commas">
+    </div>
+    <button type="submit" class="btn btn-primary">Find Recipes</button>
+</form>
+<ul id="recipe-list" class="list-group mt-3"></ul>
+{% endblock %}
