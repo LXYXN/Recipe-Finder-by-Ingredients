@@ -4,7 +4,15 @@
 
 This project leverages modern web technologies (**Django**, **React**) and the **Spoonacular API** to provide an intuitive platform that helps users simplify meal preparation and reduce food waste by efficiently utilizing available ingredients.
 
-## ✨ Key Features
+## Project Demo
+
+### Home & Search
+![Demo](assets/Home%20pages%20720p.gif)
+
+### Recipe Results & Details
+![Demo](assets/Recipe%20results%20page%20720p.gif)
+
+## Key Features
 
 * **Ingredient-Based Search**: Quickly find relevant recipes by simply entering a comma-separated list of ingredients you currently possess.
 
@@ -16,7 +24,7 @@ This project leverages modern web technologies (**Django**, **React**) and the *
 
 * **Responsive Design**: A user-friendly and accessible interface built with React and custom CSS/Bootstrap, ensuring optimal viewing on desktop, tablet, and mobile devices.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 This application is built using a robust MERN/Django stack:
 
@@ -30,7 +38,7 @@ This application is built using a robust MERN/Django stack:
 
 * External API - `Spoonacular API` - Provides real-time access to a vast repository of recipe data.
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to get a copy of the project up and running on your local machine.
 
@@ -109,7 +117,7 @@ npm start # or yarn start
 
 The application should now be accessible in your web browser, typically at `http://localhost:3000` (for React) or `http://localhost:8000` (for Django's home view).
 
-## 💡 Future Enhancements
+## Future Enhancements
 
 The development team has planned the following improvements:
 
